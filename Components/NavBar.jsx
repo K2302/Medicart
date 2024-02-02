@@ -32,7 +32,7 @@ export default () => {
         <div className="flex items-center justify-between py-5 md:block">
           <a href="javascript:void(0)">
             <img
-              src="https://www.floatui.com/logo.svg"
+              src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png"
               width={120}
               height={50}
               alt="Float UI logo"

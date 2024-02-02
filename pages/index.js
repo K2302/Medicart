@@ -49,7 +49,7 @@ const index = () => {
         setGetModel={setGetModel}
         setStartModal={setStartModal}
       />
-
+         {/* <About/> */}
       <Table
         setCreateShipmentModel={setCreateShipmentModel}
         allShipmentsdata={allShipmentsdata}
