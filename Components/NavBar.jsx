@@ -33,8 +33,8 @@ export default () => {
           <a href="javascript:void(0)">
             <img
               src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png"
-              width={120}
-              height={50}
+              width={220}
+              height={100}
               alt="Float UI logo"
             />
           </a>

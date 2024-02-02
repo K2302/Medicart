@@ -20,11 +20,13 @@ function About() {
         <br></br>
         <br></br>
       {/* for image and details  */}
-      <b><h1 className="about_heading" style={{ textAlign: 'center', }}>ABOUT US</h1></b>
+      {/* <b><h1 className="about_heading" style={{ textAlign: 'center', }}>ABOUT US</h1></b> */}
       <div className="underline"></div>
-      <div className="about" >
+      <div className="about">
         {/* <Image></Image> */}
-        <img src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png" style={{ height: '100px' }} alt="" />
+        <div className="flex items-center justify-center ">
+        <img  src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png"  alt="" />
+        </div>
         <div className="about_text_div"   style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <div className="about_text">
             <div className="about_agro" style={{ textAlign: 'center' }}>
