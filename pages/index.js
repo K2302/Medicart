@@ -75,6 +75,7 @@ const index = () => {
         setGetModel={setGetModel}
         getShipment={getShipment}
       />
+
       <StartShipment
         startModal={startModal}
         setStartModal={setStartModal}
