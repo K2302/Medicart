@@ -40,8 +40,8 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
               <th className="py-3 px-6">Doctor</th>
               <th className="py-3 px-6">Patient</th>
               <th className="py-3 px-6">Starting Date</th>
-              <th className="py-3 px-6">Distance</th>
               <th className="py-3 px-6">Cost</th>
+              {/* <th className="py-3 px-6">Cost</th> */}
               <th className="py-3 px-6">Ending Date</th>
               <th className="py-3 px-6">Payment Status</th>
               <th className="py-3 px-6">Status</th>
@@ -60,11 +60,11 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
                   {converTime(shipment.pickupTime)}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  {shipment.distance} Km
+                  {shipment.distance} Rs
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
+                {/* <td className="px-6 py-4 whitespace-nowrap">
                   {shipment.price}
-                </td>
+                </td> */}
                 <td className="px-6 py-4 whitespace-nowrap">
                   {shipment.deliveryTime}
                 </td>
@@ -73,10 +73,10 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   {shipment.status == 0
-                    ? "Pending"
+                    ? "Will be Admited"
                     : shipment.status == 1
-                    ? "IN_TRANSIT"
-                    : "Delivered"}
+                    ? "Recieving Treatment"
+                    : "Decharged"}
                 </td>
               </tr>
             ))}
