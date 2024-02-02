@@ -20,8 +20,7 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
             CREATE A APPOINMENT
           </h3>
           <p className="text-gray-600 mt-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Give all the details of the treatment
           </p>
         </div>
         <div className="mt-3 md:mt-0">
