@@ -9,7 +9,7 @@ function About() {
   //   ReactGa.pageview(window.location.pathname);
   // }, []);
   return (
-    <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+    <div className="max-w-screen-xl mx-auto px-4 md:px-8" id="about">
       <br></br>
       <br></br>
       <br></br>
