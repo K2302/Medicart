@@ -23,7 +23,7 @@ export default () => {
 
   return (
     <nav
-      className={`bg-gray-600 pb-5 justify-center items-center  md:text-sm ${state
+      className={`bg-blue-100 pb-5 justify-center items-center  md:text-sm ${state
         ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
         : ""
         }`}
@@ -33,7 +33,8 @@ export default () => {
 
           <a href="javascript:void(0)">
             <img
-              src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png"
+              src=" https://res.cloudinary.com/dqxsihu7w/image/upload/v1706966576/Screenshot_2024-02-03_183219-removebg-preview_e9swdl.png"
+
               width={220}
               height={100}
               alt="Float UI logo"
@@ -55,7 +56,7 @@ export default () => {
           <ul className="justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <li key={idx} className="text-black font-medium text-xl  flex items-center justify-center gap-x-1 py-2 px-4 hover:rounded-full hover:text-blue-700 hover:bg-gray-200">
+                <li key={idx} className="text-black font-medium text-xl  flex items-center justify-center gap-x-1 py-2 px-4 hover:rounded-full hover:text-blue-200 hover:bg-black">
                   <a href={item.path} className="block">
                     {item.title}
                   </a>

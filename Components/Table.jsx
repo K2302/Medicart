@@ -35,7 +35,7 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
       </div>
       <div className="mt-12 shadow-sm border rounded-lg overflow-x-auto">
         <table className="w-full table-auto text-sm text-left">
-          <thead className="bg-gray-50 text-gray-600 font-medium border-b">
+          <thead className="bg-blue-300 text-gray-600 font-medium border-b">
             <tr>
             <th className="py-3 px-6">ID</th>
               <th className="py-3 px-6">Doctor</th>
@@ -48,7 +48,7 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
               <th className="py-3 px-6">Status</th>
             </tr>
           </thead>
-          <tbody className="text-gray-600 divide-y">
+          <tbody className="text-gray-600 divide-y bg-sky-100">
             {allShipmentsdata?.map((shipment, idx) => (
               <tr key={idx}>
                 <td className="px-6 py-4 whitespace-nowrap">
