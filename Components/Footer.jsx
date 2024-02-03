@@ -20,12 +20,12 @@ export default () => {
     },
   ];
   return (
-    <footer className="pt-10">
+    <footer className="pt-10 bg-sky-100">
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="justify-between sm:flex">
           <div className="space-y-6">
-            <img src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png" className="w-40"  width={320}
-              height={300}/>
+            <img src=" https://res.cloudinary.com/dqxsihu7w/image/upload/v1706966576/Screenshot_2024-02-03_183219-removebg-preview_e9swdl.png" className="w-40" width={320}
+              height={300} />
             <p className="max-w-md">
               Globally accesible Medical Report
             </p>
