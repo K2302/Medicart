@@ -23,15 +23,22 @@ export default () => {
 
   return (
     <nav
-      className={`bg-blue-300 pb-5 justify-center items-center  md:text-sm ${state
-          ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
-          : ""
+      className={`bg-gray-600 pb-5 justify-center items-center  md:text-sm ${state
+        ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
+        : ""
         }`}
     >
       <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-5 md:block">
-        
-          +
+
+          <a href="javascript:void(0)">
+            <img
+              src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png"
+              width={220}
+              height={100}
+              alt="Float UI logo"
+            />
+          </a>
           <div className="md:hidden">
             <button
               className="menu-btn text-gray-500 hover:text-gray-800"

@@ -4,7 +4,9 @@ import { ethers } from "ethers";
 
 //INTERNAL IMPORT
 import tracking from "../Conetxt/Tracking.json";
-const ContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+//const ContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+//0x305d9B5826718D827374f4C4d34ec942378b9352
+const ContractAddress = "0x305d9B5826718D827374f4C4d34ec942378b9352";
 const ContractABI = tracking.abi;
 
 //---FETCHING SMART CONTRACT

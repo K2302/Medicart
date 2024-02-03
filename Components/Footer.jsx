@@ -1,5 +1,5 @@
 import { Fot1, Fot2 } from "../Components/index";
-
+import logo from "../Images/logo.png";
 export default () => {
   const footerNavs = [
     {
@@ -24,8 +24,8 @@ export default () => {
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="justify-between sm:flex">
           <div className="space-y-6">
-            <img src="https://www.floatui.com/logo.svg" className="w-32" />
-         
+            <img src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png" className="w-40"  width={320}
+              height={300}/>
             <p className="max-w-md">
               Globally accesible Medical Report
             </p>
@@ -58,3 +58,5 @@ export default () => {
     </footer>
   );
 };
+
+
