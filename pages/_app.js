@@ -7,7 +7,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <TrackingProvider>
-        <NavBar />
+        <NavBar >
+          {/* <About/> */}
+      </NavBar >
         <Component {...pageProps} />
          <About/>
         <Footer />
