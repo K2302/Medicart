@@ -7,7 +7,9 @@ export default function App({ Component, pageProps }) {
   return (
     <div className="bg-indigo-200">
       <TrackingProvider>
-        <NavBar />
+        <NavBar >
+          {/* <About/> */}
+      </NavBar >
         <Component {...pageProps} />
          <About/>
         <Footer />

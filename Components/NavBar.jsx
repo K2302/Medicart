@@ -9,8 +9,9 @@ export default () => {
 
   const navigation = [
     { title: "Home ", path: "#" },
-    { title: "Services", path: "#" },
-    { title: "Contact Us", path: "#" },
+    { title: "About", path: "#about" },
+
+    { title: "Contact Us", path: "#footer" },
     { title: "Erc20", path: "#" },
   ];
 
@@ -64,6 +65,10 @@ export default () => {
               );
             })}
           </ul>
+          {/* <ul> */}
+          {/* <ul>
+         
+          </ul> */}
           <div className="flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
             {currentUser ? (
               <p className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex">
