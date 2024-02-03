@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 // import Team from "./Images/team_thumbnail.png";
-import ReactGa from "react-ga";
+// import ReactGa from "react-ga";
 import "./About.module.css";
 import logo from "../Images/logo.png";
 
 function About() {
-  useEffect(() => {
-    ReactGa.pageview(window.location.pathname);
-  }, []);
+  // useEffect(() => {
+  //   ReactGa.pageview(window.location.pathname);
+  // }, []);
   return (
     <div className="About-section">
         <br></br>
