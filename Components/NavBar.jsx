@@ -2,6 +2,7 @@ import { useEffect, useState, useContext } from "react";
 
 import { TrackingContext } from "../Conetxt/TrackingContext";
 import { Nav1, Nav2, Nav3 } from "../Components/index";
+import Logo from "../Images/logo.png"
 export default () => {
   const [state, setState] = useState(false);
   const { currentUser, connectWallet } = useContext(TrackingContext);
@@ -22,21 +23,15 @@ export default () => {
 
   return (
     <nav
-      className={`bg-blue-300 pb-5 md:text-sm ${state
+      className={`bg-blue-300 pb-5 justify-center items-center  md:text-sm ${state
           ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
           : ""
         }`}
     >
       <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-5 md:block">
-          <a href="javascript:void(0)">
-            <img
-              src="https://www.floatui.com/logo.svg"
-              width={120}
-              height={50}
-              alt="Float UI logo"
-            />
-          </a>
+        
+          +
           <div className="md:hidden">
             <button
               className="menu-btn text-gray-500 hover:text-gray-800"

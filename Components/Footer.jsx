@@ -25,6 +25,7 @@ export default () => {
         <div className="justify-between sm:flex">
           <div className="space-y-6">
             <img src="https://www.floatui.com/logo.svg" className="w-32" />
+         
             <p className="max-w-md">
               Globally accesible Medical Report
             </p>
