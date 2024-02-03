@@ -1,5 +1,5 @@
 import { Fot1, Fot2 } from "../Components/index";
-import logo from "../Images/logo.png";
+
 export default () => {
   const footerNavs = [
     {
@@ -20,7 +20,7 @@ export default () => {
     },
   ];
   return (
-    <footer className="pt-10 bg-sky-100">
+    <footer className="pt-10 bg-sky-100" id="footer">
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="justify-between sm:flex">
           <div className="space-y-6">
@@ -52,7 +52,7 @@ export default () => {
           </div>
         </div>
         <div className="mt-10 py-10 border-t md:text-center">
-          <p>©Medicart All rights reserved.</p>
+          <p className="font-semibold text-black size-4">©MediFLow All rights reserved.</p>
         </div>
       </div>
     </footer>
