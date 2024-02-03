@@ -37,6 +37,7 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
         <table className="w-full table-auto text-sm text-left">
           <thead className="bg-gray-50 text-gray-600 font-medium border-b">
             <tr>
+            <th className="py-3 px-6">ID</th>
               <th className="py-3 px-6">Doctor</th>
               <th className="py-3 px-6">Patient</th>
               <th className="py-3 px-6">Starting Date</th>
@@ -50,6 +51,9 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
           <tbody className="text-gray-600 divide-y">
             {allShipmentsdata?.map((shipment, idx) => (
               <tr key={idx}>
+                <td className="px-6 py-4 whitespace-nowrap">
+                  {idx}
+                </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   {shipment.sender.slice(0, 15)}...
                 </td>
@@ -75,8 +79,8 @@ export default ({ setCreateShipmentModel, allShipmentsdata }) => {
                   {shipment.status == 0
                     ? "Will be Admited"
                     : shipment.status == 1
-                    ? "Recieving Treatment"
-                    : "Decharged"}
+                      ? "Recieving Treatment"
+                      : "Decharged"}
                 </td>
               </tr>
             ))}
