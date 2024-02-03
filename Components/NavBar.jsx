@@ -9,11 +9,9 @@ export default () => {
 
   const navigation = [
     { title: "Home ", path: "#" },
-    { title: "Services", path: "#about" },
+    { title: "About", path: "#about" },
 
-    { title: "Services", path: "#" },
-
-    { title: "Contact Us", path: "#" },
+    { title: "Contact Us", path: "#footer" },
     { title: "Erc20", path: "#" },
   ];
 
