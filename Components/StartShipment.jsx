@@ -28,14 +28,14 @@ export default ({ startModal, setStartModal, startShipment }) => {
           </div>
           <div className="max-w-sm mx-auto py-3 space-y-3 text-center">
             <h4 className="text-lg font-medium text-gray-800">
-              Start The Shipping
+              Start Treatment
             </h4>
 
             <form onSubmit={(e) => e.preventDefault()}>
               <div className="relative mt-3">
                 <input
                   type="text"
-                  placeholder="receiver"
+                  placeholder="Patient Name"
                   className="w-full pl-5 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg "
                   onChange={(e) =>
                     setGetProduct({
@@ -48,7 +48,7 @@ export default ({ startModal, setStartModal, startShipment }) => {
               <div className="relative mt-3">
                 <input
                   type="text"
-                  placeholder="Id"
+                  placeholder="Appointment Number"
                   className="w-full pl-5 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
                   onChange={(e) =>
                     setGetProduct({
