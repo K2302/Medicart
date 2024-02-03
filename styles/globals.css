@@ -4,6 +4,7 @@
 
 .background {
   background-color: #222222;
+  /* background: linear-gradient(to right, #3366cc, #66aaff); */
   color: #fff;
 }
 
