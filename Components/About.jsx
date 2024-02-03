@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // import Team from "./Images/team_thumbnail.png";
 // import ReactGa from "react-ga";
-import "./About.module.css";
+// import "./About.module.css";
 import logo from "../Images/logo.png";
 
 function About() {
