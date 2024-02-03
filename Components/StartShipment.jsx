@@ -36,7 +36,7 @@ export default ({ startModal, setStartModal, startShipment }) => {
                 <input
                   type="text"
                   placeholder="receiver"
-                  className="w-full pl-5 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                  className="w-full pl-5 pr-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg "
                   onChange={(e) =>
                     setGetProduct({
                       ...getProduct,
@@ -69,6 +69,8 @@ export default ({ startModal, setStartModal, startShipment }) => {
           </div>
         </div>
       </div>
+
+
     </div>
   ) : (
     ""

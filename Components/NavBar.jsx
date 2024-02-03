@@ -2,6 +2,7 @@ import { useEffect, useState, useContext } from "react";
 
 import { TrackingContext } from "../Conetxt/TrackingContext";
 import { Nav1, Nav2, Nav3 } from "../Components/index";
+import Logo from "../Images/logo.png"
 export default () => {
   const [state, setState] = useState(false);
   const { currentUser, connectWallet } = useContext(TrackingContext);
@@ -22,19 +23,20 @@ export default () => {
 
   return (
     <nav
-      className={`bg-white pb-5 md:text-sm ${
-        state
-          ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
-          : ""
-      }`}
+      className={`bg-blue-100 pb-5 justify-center items-center  md:text-sm ${state
+        ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
+        : ""
+        }`}
     >
       <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
         <div className="flex items-center justify-between py-5 md:block">
+
           <a href="javascript:void(0)">
             <img
-              src="https://www.floatui.com/logo.svg"
-              width={120}
-              height={50}
+              src=" https://res.cloudinary.com/dqxsihu7w/image/upload/v1706966576/Screenshot_2024-02-03_183219-removebg-preview_e9swdl.png"
+
+              width={220}
+              height={100}
               alt="Float UI logo"
             />
           </a>
@@ -48,14 +50,13 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center mt-8 md:mt-0 md:flex ${
-            state ? "block" : "hidden"
-          } `}
+          className={`flex-1 items-center mt-8 md:mt-0 md:flex ${state ? "block" : "hidden"
+            } `}
         >
           <ul className="justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <li key={idx} className="text-gray-700 hover:text-gray-900">
+                <li key={idx} className="text-black font-medium text-xl  flex items-center justify-center gap-x-1 py-2 px-4 hover:rounded-full hover:text-blue-200 hover:bg-black">
                   <a href={item.path} className="block">
                     {item.title}
                   </a>

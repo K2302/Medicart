@@ -7,6 +7,7 @@ import Profile from "./Profile";
 import GetShipment from "./GetShipment";
 import CompleteShipment from "./CompleteShipment";
 import StartShipment from "./StartShipment";
+import About from "./About";
 //SVG
 import Nav1 from "./SVG/Nav1";
 import Nav2 from "./SVG/Nav2";
@@ -16,6 +17,7 @@ import Fot2 from "./SVG/Fot2";
 import Str1 from "./SVG/Str1";
 
 export {
+  About,
   Footer,
   Table,
   NavBar,
