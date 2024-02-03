@@ -25,7 +25,7 @@ function About() {
       <div className="">
         {/* <Image></Image> */}
         <div className="flex items-center justify-center ">
-          <img src="https://res.cloudinary.com/priyojit/image/upload/v1706899136/Screenshot_2024-02-02_193052-removebg-preview_r0lz1m.png" alt="" />
+          <img src=" https://res.cloudinary.com/dqxsihu7w/image/upload/v1706966576/Screenshot_2024-02-03_183219-removebg-preview_e9swdl.png" alt="" />
         </div>
         <div className="">
           <div className="">
