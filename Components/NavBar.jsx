@@ -11,7 +11,7 @@ export default () => {
     { title: "Home ", path: "#" },
     { title: "About", path: "#about" },
 
-    { title: "Contact Us", path: "#footer" },
+    { title: "Contact Us", path: "#contact" },
     { title: "Erc20", path: "#" },
   ];
 
