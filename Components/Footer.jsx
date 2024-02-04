@@ -52,7 +52,7 @@ export default () => {
           </div>
         </div>
         <div className="mt-10 py-10 border-t md:text-center">
-          <p className="font-semibold text-black size-4">©MediFLow All rights reserved.</p>
+          <p className=" text-black size-4">©MediFLow All rights reserved.</p>
         </div>
       </div>
     </footer>
