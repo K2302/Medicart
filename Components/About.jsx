@@ -30,7 +30,11 @@ function About() {
         <div className="">
           <div className="">
             <div className="">
-              <b> ABOUT Medi-Cart: </b>
+            <div className="max-w-lg">
+            <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
+              ABOUT US
+            </h3>
+            </div>
               This site is developed for the medical system .
               <br></br>
               <br></br>

@@ -11,3 +11,11 @@
 .changeImage {
   filter: grayscale(100%);
 }
+form > div {
+  @apply flex flex-col gap-2;
+}
+
+input,
+textarea {
+  @apply shadow-md px-6 py-2 border border-slate-300;
+}
