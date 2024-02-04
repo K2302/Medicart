@@ -8,7 +8,7 @@ export default function ContactForm() {
     <div className="max-w-screen-xl mx-auto px-4 md:px-8" id="contact">
     <div className="max-w-lg">
     <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
-      CREATE A APPOINMENT
+      CONTACT US
     </h3>
     </div>
     <form
